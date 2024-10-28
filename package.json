@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://svetlana-soboleva.github.io/book-wishlist",
+  "homepage": "https://svetlana-soboleva.github.io/Book_Wishlist",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
