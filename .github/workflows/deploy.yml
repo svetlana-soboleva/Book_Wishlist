@@ -37,15 +37,8 @@ jobs:
         env: # Pass environment variables here
           VITE_REACT_APP_BOOKS: ${{ secrets.VITE_REACT_APP_BOOKS }}
         run: npm run build
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload dist folder
-          path: "./dist"
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }} 
           publish_dir: ./dist
