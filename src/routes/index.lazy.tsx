@@ -26,7 +26,11 @@ function Index() {
   }
 
   if (booksWishData.length == 0) {
-    return <div>No book in the Wish List</div>;
+    return (
+      <div className="text-center py-4 text-gray-500">
+        No book in the Wish List
+      </div>
+    );
   }
 
   return (

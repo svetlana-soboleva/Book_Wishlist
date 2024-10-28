@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/routetree.gen.ts","./src/vite-env.d.ts","./src/api/api.ts","./src/api/types.ts","./src/api/utils.ts","./src/components/bookcard.tsx","./src/components/booklist.tsx","./src/components/searchbar.tsx","./src/routes/__root.tsx","./src/routes/index.lazy.tsx","./src/routes/search/index.tsx","./src/stores/bookstore.ts"],"version":"5.6.3"}
