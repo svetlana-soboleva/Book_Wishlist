@@ -7,16 +7,14 @@ const queryClient = new QueryClient();
 
 export const Route = createRootRoute({
   component: () => (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center min-h-screen bg-gray-50">
       <div className="w-full flex justify-start">
         <Navigation />
       </div>
       <QueryClientProvider client={queryClient}>
-        
-          <Outlet />
-          <TanStackRouterDevtools />
-          <ReactQueryDevtools initialIsOpen={false} />
-       
+        <Outlet />
+        <TanStackRouterDevtools />
+        <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>
     </div>
   ),

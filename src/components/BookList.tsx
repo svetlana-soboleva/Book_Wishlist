@@ -23,7 +23,7 @@ export const BookList = ({ booksData, booksError, booksAreLoading }: Props) => {
   }
 
   if (booksError) {
-    return <p>Error loading books. Please try again later.</p>;
+    return <div className="text-red-500">Error loading books: {booksError.message}</div>;
   }
 
   return (
