@@ -1,7 +1,7 @@
 import { Book } from "../api/types";
 import { FaHeart, FaBookOpen } from "react-icons/fa";
 import { toggleBook, getWishBooks } from "../stores/bookStore";
-import "../../public/onImgPlaceholder.png";
+import icon from '../assets/onImgPlaceholder.png'
 import { formatDate } from "../api/utils";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
@@ -11,7 +11,7 @@ export const BookCard = ({ item }: { item: Book }) => {
   const { title, authors, publishedDate, pageCount, imageLinks } = volumeInfo;
 
   const thumbnail =
-    imageLinks?.smallThumbnail || "../../public/noImgPlaceholder.png";
+    imageLinks?.smallThumbnail || icon
 
   const { data: booksWishData } = useQuery<Book[]>({
     queryKey: ["wishBooks"],

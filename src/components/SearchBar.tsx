@@ -11,7 +11,7 @@ export const SearchBar = ({ onSearchChange }: Props) => {
     onSearchChange(inputValue);
   };
   return (
-    <div className="flex w-2/3 rounded-md border-2 border-gray-300 overflow-hidden">
+    <div className="flex rounded-md border-2 border-gray-300 overflow-hidden">
       <input
         onChange={(e) => setInputValue(e.target.value)}
         type="email"

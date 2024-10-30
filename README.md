@@ -2,6 +2,9 @@
 
 This is a hobby project designed as a personal "wishlist" for books, using the Google Books API to allow users to search, view, and add books to a wishlist. It's built with React, TanStack Query, and TanStack Router, with a goal to practice modern state management, routing, and data fetching patterns. This project is still in development and currently has basic functionality for adding/removing books from a wishlist, with plans for additional features and improved UI.
 
+
+Visit  https://svetlana-soboleva.github.io/Book_Wishlist/ to check it out!
+
 ---
 
 ## 🚀 Features Implemented

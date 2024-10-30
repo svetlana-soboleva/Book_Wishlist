@@ -34,7 +34,7 @@ function Index() {
   }
 
   return (
-    <div className="grid grid-cols-1 justify-items-center place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
       {booksWishData?.map((item: Book) => (
         <BookCard key={item.id} item={item} />
       ))}
