@@ -12,11 +12,11 @@ export const Route = createRootRoute({
         <Navigation />
       </div>
       <QueryClientProvider client={queryClient}>
-        <div className="flex flex-col items-center">
+        
           <Outlet />
           <TanStackRouterDevtools />
           <ReactQueryDevtools initialIsOpen={false} />
-        </div>
+       
       </QueryClientProvider>
     </div>
   ),

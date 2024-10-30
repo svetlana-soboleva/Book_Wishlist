@@ -2,7 +2,7 @@ import { Link, useLocation } from "@tanstack/react-router";
 
 export const Navigation = () => {
   return (
-    <div className="flex flex-row justify-center gap-4 m-4 p-1 border border-gray-700 rounded-lg w-1/2 sm:w-1/3">
+    <div className="flex flex-row justify-center gap-4 m-4 p-1 border border-gray-700 rounded-lg">
       <NavLink to="/" label="My Wish List" />
       <NavLink to="/search" label="Search" search={{ query: "" }} />
     </div>
